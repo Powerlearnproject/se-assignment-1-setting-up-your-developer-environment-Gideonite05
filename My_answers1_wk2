@@ -1,0 +1,98 @@
+ 
+Assignment: Setting Up Your Developer Environment
+
+Objective:
+ I Completing this assignment will give me the skills required to set up a robust and productive workspace conducive to coding, debugging, version control, and collaboration.
+
+Tasks:
+
+1. I Selected My Operating System (OS) which is Windows.
+- Objective: To Choose an operating system that best suits your preferences and project requirements.
+- Task:
+  1. I Go to [Windows 11 Download Page](https://www.microsoft.com/software-download/windows11).
+  2. Download the Windows 11 installation media.
+  3. Follow the instructions to install Windows 11 on your machine.
+
+2. Install a Text Editor or Integrated Development Environment (IDE)
+- Objective: I Select and install a text editor or IDE suitable for your programming languages and workflow.
+- Task:
+  1. I Go to the [Visual Studio Code Download Page](https://code.visualstudio.com/Download).
+  2. Download the installer for your operating system.
+  3. Run the installer and follow the instructions to complete the installation.
+
+3. Set Up Version Control System
+- Objective:To Install Git, configure it on your local machine, create a GitHub account, initialize a Git repository, and make your first commit.
+- Task:
+  1. Install Git:
+     - I Downloaded Git from [Git-SCM](https://git-scm.com/download/win).
+     - Run the installer and follow the instructions.
+  2. Configure Git:
+     ```bash
+     git config --global user.name "Your Name"
+     git config --global user.email "your.email@example.com"
+     ```
+  3. I Created a GitHub account at [GitHub](https://github.com).
+  4. I Initialized a Git repository for my project:
+     ```bash
+     mkdir my-project
+     cd my-project
+     git init
+     ```
+  5. I Created a README file and make your first commit:
+     ```bash
+     echo "# My Project" > README.md
+     git add README.md
+     git commit -m "Initial commit"
+     ```
+
+4. I Installed Necessary Programming Languages and Runtimes
+- Objective: To Install Python required for your project and install their respective compilers, interpreters, or runtimes.
+- Task:
+  1. I Downloaded Python from [Python.org](http://www.python.org).
+  2. Run the installer and ensure you check the box "Add Python to PATH".
+  3. Verify the installation:
+     ```bash
+     python --version
+     ```
+
+5. I Installed Package Managers
+- Objective: I did check for and Install package managers like pip (Python).
+- Task:
+  1. Pip should be installed with Python by default.
+  2. Verify pip installation:
+     ```bash
+     pip --version
+     ```
+
+6. I Configured a Database (MySQL)
+- Objective: To Download and install MySQL database.
+- Task:
+  1. I Downloaded MySQL from [MySQL Download Page](https://dev.mysql.com/downloads/windows/installer/5.7.html).
+  2. Run the installer and follow the instructions to install MySQL.
+
+7. Set Up Development Environments and Virtualization (Optional)
+- Objective:To Use virtualization tools like Docker or virtual machines to isolate project dependencies.
+- Task (Optional):
+  1. Download Docker from [Docker Hub](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
+  2. Run the installer and follow the instructions.
+  3. Verify Docker installation:
+     ```bash
+     docker --version
+     ```
+
+8. Explore Extensions and Plugins
+- Objective: To Explore available extensions, plugins, and add-ons for your chosen text editor or IDE.
+- Task:
+  1. I need to navigate and Open Visual Studio Code.
+  2. Then get to navigate to the Extensions to view by clicking the Extensions icon in the Sidebar or I engage the shortcut("ctrl+shift+X)
+  3. Install extensions such as Python, GitLens, Prettier, code runner, darts, flutter etc.
+
+
+Deliverables:
+- Document: Detailing the setup process with step-by-step instructions and screenshots.
+- GitHub Repository: Containing a sample project initialized with Git and any necessary configuration files (e.g., `.gitignore`).
+- Reflection: A reflection on the challenges faced during setup and strategies employed to overcome
+SOmetimes I did face a tough time using the git bash shell to get some commands executed. 
+It keep showing me error and even with attempts many times.
+But like I was told in lecture time to reach out for help through a fellow humans like me (the chat page provided that opportunity) and aslo i did consult AI technology (like chat GPT for solution). And I was able to scale through the challenges. thanks to the PLP Instructor for enough guide.
+
